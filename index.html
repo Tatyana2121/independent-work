@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/iconfonts.css">
+	<link rel="stylesheet" href="./styles/style.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+	</style>
+	<title>REAL ESTATE</title>
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper">
+			<div class="header-menu">
+				<img src="./img/logo_header.png" alt="logo" class="logo-header">
+				<button type="button" class="header-menu__burger"></button>
+				<div class="header-list">	
+					<ul class="header-navbar">
+						<li class="header-navbar__item"><a href="#" class="header-navbar__link">Загородные </a></li>
+						<li class="header-navbar__item"><a href="#" class="header-navbar__link">Городские</a></li>
+						<li class="header-navbar__item"><a href="#" class="header-navbar__link">О компании</a></li>
+						<li class="header-navbar__item"><a href="#" class="header-navbar__link">Наши новости</a></li>
+					</ul>
+				</div>				
+				<div class="header-contacts">
+					<a class="header-contacts__item header-contacts__place" href="">Екатеринбург</a>
+					<a class="header-contacts__item header-contacts__tel" href="tel:+73833456012"> +7  (383)  345-60-12</a>				
+				</div>
+			</div>	
+			<div class="header-menu-mob">
+				<button type="button" class="header-menu-mob__burger"></button>
+				<img src="./img/logo_header.png" alt="logo" class="logo-header-mob">
+				<a class="logo-header-mob__tel" href="tel:+73833456012"></a>
+			</div>
+			<div class="header-main">
+				<h1 class="header-title">Жилой комплекс HOMEFOR  - это жизнь с комфортом</h1>
+				<p class="header-description">Мы охватываем все важные этапы проектирование и строительство дома, а также повседневная эксплуатация после окончания строительства.</p>
+				<button class="header-btn">подробнее</button>
+			</div>
+		</div>
+	</header>
+	<section class="selection">
+		<div class="wrapper">
+			<form class="form">
+				<div class="form-dropdown">
+					<button class="button form-dropdown__object">Тип объекта<span class="arrow"></span></button>
+					<button class="button form-dropdown__district">Район<span class="arrow"></span></button>
+				</div>
+				<div class="form-button">
+					<div class="form-button-item">
+						<button class="button button__item button__area">Площадь</button>
+						<button class="button button__item button__meter"><span class="line"></span> м2</button>
+					</div>
+					<div class="form-button-item">
+						<button class="button button__item button__price">Цена за м2</button>
+						<button class="button button__item button__rub"><span class="line"></span> тыс.</button>
+					</div>
+				</div>
+			</form>		
+			<button class="btn-discard">Сбросить фильтры <span class="icon-close"></span> </button>	
+			<button class="btn-show">показать</button>
+		</div>
+	</section>
+	<!--<div class="form-dropdown__object">
+				<button class="button">Тип объекта<span class="arrow"></span></button>
+				<div class="dropdown-content__object">
+					<a href="#">Загородные дома</a>
+					<a href="#">Городские квартиры</a>
+				</div>
+			</div>						
+			<div class="form-dropdown__distric">
+				<button class="button">Район<span class="arrow"></span></button>
+				<div class="dropdown-content__distric">
+					<a href="#">Район №1</a>
+					<a href="#">Район №2</a>
+					<a href="#">Район №3</a>
+					<a href="#">Район №4</a>
+				</div>
+			</div>						-->
+	<section class="houses">
+		<div class="wrapper">
+			<h3 class="title houses__title">Загородные дома</h3>
+			<div class="discription houses__discription">Наши дома расположились в уютных районах Екатеринбурга: Верх&nbsp-&nbspИсетский район, Железнодорожный район, Чкаловский район.</div>
+			<div class="slider">
+				<div class="slider-line">
+					<span class="slider-left"></span><span class="slider-right"></span>
+				</div>
+				<div class="slider-block slider-houses">
+					<div class="slider-item">
+						<img src="./img/house_1.png" alt="">
+						<div class="slider-text">
+							<p class="slider-text__name">Дом “Брусника”</p>
+							<p class="slider-text__adress">ул. Карла Маркса, 60, Екатеринбург <span class="icon-like"></span></p>
+							
+						</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span> 200 м2</p>
+								<p class="slider-info__item slider-info__landarea"><span class="icon-area"></span> 10 сот</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span> с отделкой</p>	
+							</div>
+							<div class="slider-info-price">7 005 456 500 ₽<span class="icon-like"></span>   
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item">
+						<img src="./img/house_2.png" alt="">
+							<div class="slider-text">
+								<p class="slider-text__name">Дом “Трендис”</p>
+								<p class="slider-text__adress">ул. Урицкого, 13, Екатеринбург <span class="icon-like"></span></p>
+							</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span> 500 м2</p>
+								<p class="slider-info__item slider-info__landarea"><span class="icon-area"></span> 12 сот</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span> с отделкой</p>	
+							</div>
+							<div class="slider-info-price">10 000 234 500 ₽<span class="icon-like"></span>
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item">
+						<img src="./img/house_3.png" alt="">
+						<div class="slider-text">
+							<p class="slider-text__name">Дома “Панорома”</p>
+							<p class="slider-text__adress">ул. Толстого, 340, Екатеринбург <span class="icon-like"></span></p>
+						</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span>150 м2</p>
+								<p class="slider-info__item slider-info__landarea"><span class="icon-area"></span>13 сот</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span>с отделкой</p>	
+							</div>
+							<div class="slider-info-price">5 045 000 500 ₽<span class="icon-like"></span> 
+							</div>
+						</div>						
+					</div>								
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="apartments">
+		<div class="wrapper">
+			<h3 class="title apartments__title">Городские квартиры</h3>
+			<div class="discription apartments__discription">В каталоге квартир вы найдете актуальные планировки и цены. Это те квартиры, которые есть в продаже сейчас.</div>
+			<div class="slider">
+				<div class="slider-block slider-apartments">
+					<div class="slider-item slider-item__apartments">
+						<img src="./img/apartment_1.png" alt="">
+						<div class="slider-text">
+							<p class="slider-text__name">Дом “Жуковка”</p>
+							<p class="slider-text__adress">ул. Карла Маркса, 60, Екатеринбург<span class="icon-like"></span></p>
+						</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span> 72 м2</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span> с отделкой</p>	
+							</div>
+							<div class="slider-info-price">3 006 435 500 ₽<span class="icon-like"></span>    
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item slider-item__apartments">
+						<img src="./img/apartment_2.png" alt="">
+							<div class="slider-text">
+								<p class="slider-text__name">Дом “Парашют”</p>
+								<p class="slider-text__adress">ул. Зорге, 160, Екатеринбург<span class="icon-like"></span></p>
+							</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span> 112 м2</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span> с отделкой</p>	
+							</div>
+							<div class="slider-info-price">5 000 974 500 ₽<span class="icon-like"></span>
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item slider-item__apartments">
+						<img src="./img/apartment_3.png" alt="">
+						<div class="slider-text">
+							<p class="slider-text__name">Дом “Весна”</p>
+							<p class="slider-text__adress">ул. Заречная, 120, Екатеринбург<span class="icon-like"></span></p>
+						</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span>100 м2</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span>с отделкой</p>	
+							</div>
+							<div class="slider-info-price">6 120 412 500 ₽<span class="icon-like"></span>
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item slider-item__apartments">
+						<img src="./img/apartment_4.png" alt="">
+						<div class="slider-text">
+							<p class="slider-text__name">Дом “Пионер”</p>
+							<p class="slider-text__adress">ул. Карла Маркса, 120, Екатеринбург<span class="icon-like"></span></p>
+							
+						</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span> 90 м2</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span> с отделкой</p>	
+							</div>
+							<div class="slider-info-price">3 120 000 500 ₽<span class="icon-like"></span>   
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item slider-item__apartments">
+						<img src="./img/apartment_5.png" alt="">
+							<div class="slider-text">
+								<p class="slider-text__name">Дом “Манхетен”</p>
+								<p class="slider-text__adress">ул. Московская, 10, Екатеринбург<span class="icon-like"></span></p>
+							</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span> 87 м2</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span> с отделкой</p>	
+							</div>
+							<div class="slider-info-price">6 000 456 000 ₽<span class="icon-like"></span>
+							</div>
+						</div>						
+					</div>
+					<div class="slider-item slider-item__apartments">
+						<img src="./img/apartment_3.png" alt="">
+						<div class="slider-text">
+							<p class="slider-text__name">Дом “Дружба”</p>
+							<p class="slider-text__adress">ул. Прашина, 60, Екатеринбург<span class="icon-like"></span></p>
+						</div>
+						<div class="slider-info">
+							<div class="slider-info-list">
+								<p class="slider-info__item slider-info__area"><span class="icon-home"></span>50 м2</p>
+								<p class="slider-info__item slider-info__decoration"><span class="icon-decoration"></span>с отделкой</p>	
+							</div>
+							<div class="slider-info-price">4 012 400 500 ₽<span class="icon-like"></span>
+							</div>
+						</div>																				
+				</div>
+			</div>
+			<button class="btn-apartaments">Смотреть больше<span class="btn-apartaments__arrow"></span></button>
+		</div>
+	</section>
+	<section class="plan">
+		<div class="wrapper">
+			<h3 class="title plan__title">Генплан</h3>
+			<div class="discription plan__discription">На генплане вы можете посмотреть территорию покупки. В поселке все предусмотрено. Здесь проведены необходимые коммуникации.Это место влюбляет в себя.</div>
+			<div class="plan-btn">
+				<button class="plan-btn__item plan-btn__houses">Загородные дома</button>
+				<span></span>
+				<button class="plan-btn__item plan-btn__apartments">Городские квартиры</button>
+			</div>
+		</div>
+		<div class="plan-image">
+			<img src="./img/plan.png" alt="Генплан" class="plan-img">			
+			<div class="rectangle rectangle__23"><p>дом 23</p> </div>	
+			<div class="rectangle rectangle__56"><p>дом 56</p></div>
+			<div class="rectangle rectangle__234"><p>дом 234</p></div>
+			<div class="rectangle rectangle__116"><p>дом 116</p></div>	
+			<div class="rectangle rectangle__school"><p>школа №27</p></div>
+		</div>
+	</section>
+	<section class="aboutcompany">
+		<div class="wrapper">
+			<h3 class="title aboutcompany__title">О компании</h3>
+			<div class="discription aboutcompany__discription">Профессиональный оператор рынка элитной недвижимости с 2008 года. HOMEFOR – это сочетание репутации, многолетнего опыта и высокого уровня сервиса. Компания заслужила доверие и признание профессиональных участников рынка</div>
+			<div class="aboutcompany-row">
+				<div class="aboutcompany-column aboutcompany-column__sketch">
+					<div class="aboutcompany-column__icon"><img src="./img/icon/sketch_icon.png" alt=""></div>
+					<div class="aboutcompany-column__body">Большой опыт в&nbspстроительстве</div>
+				</div>
+				<div class="aboutcompany-column aboutcompany-column__price">
+					<div class="aboutcompany-column__icon"><img src="./img/icon/price_icon.png" alt=""></div>
+					<div class="aboutcompany-column__body">Доступные цены</div>
+				</div>
+				<div class="aboutcompany-column aboutcompany-column__time">
+					<div class="aboutcompany-column__icon"><img src="./img/icon/time_icon.png" alt=""></div>
+					<div class="aboutcompany-column__body">Оперативные сроки работы</div>
+				</div>
+				<div class="aboutcompany-column aboutcompany-column__quality">
+					<div class="aboutcompany-column__icon"><img src="./img/icon/quality_icon.png" alt=""></div>
+					<div class="aboutcompany-column__body">Качественные материалы</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="news">
+		<div class="wrapper">
+			<h3 class="title news__title">Наши новости</h3>
+			<div class="discription news__discription">Узнай новости компании первым. Мы всегда остаемся в тренде.</div>
+			<div class="slider-line">
+				<span class="slider-left"></span><span class="slider-right"></span>
+			</div>
+			<div class="news-block">
+				<div class="news-block__items">
+					<p class="news-block__date">02.04.2020</p>
+					<p class="news-block__text">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля</p>
+					<button class="news-block__btn">Смотреть больше<span class="icon-arrow"></span></button>
+				</div>
+				<div class="news-block__items">
+					<p class="news-block__date">02.04.2020</p>
+					<p class="news-block__text">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля</p>
+					<button class="news-block__btn">Смотреть больше<span class="icon-arrow"></span></button>
+				</div>
+				<div class="news-block__items">
+					<p class="news-block__date">02.04.2020</p>
+					<p class="news-block__text">В 2018 году происходили изменения в главном законе долевого строительства ФЗ-214 для решения сложной задачи – строительства 120 млн квадратных метров жилья нового качества и усиления контроля</p>
+					<button class="news-block__btn">Смотреть больше<span class="icon-arrow"></span></button>
+				</div>
+			</div>
+		</div>		
+	</section>	
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer-menu">
+				<img src="./img/logo_footer.png" alt="logo" class="logo-footer">
+				<div class="footer-list">	
+					<ul class="footer-navbar">
+						<li class="footer-navbar__item"><a href="#" class="footer-navbar__link">Загородные </a></li>
+						<li class="footer-navbar__item"><a href="#" class="footer-navbar__link">Городские</a></li>
+						<li class="footer-navbar__item"><a href="#" class="footer-navbar__link">О компании</a></li>
+						<li class="footer-navbar__item"><a href="#" class="footer-navbar__link">Наши новости</a></li>
+					</ul>
+				</div>				
+				<div class="footer-contacts">
+					<a class="footer-contacts__item" href="tel:+73833456012"> +7  (383)  345-60-12</a>				
+				</div>
+			</div>
+			<div class="footer-row">
+				<form action="" class="form-footer">
+					<label class="form-footer__label">Подпишись на рассылку</label>
+					<input class="form-footer__input" type="text" placeholder="Ваш e-mail">
+					<button class="form-footer-btn">отправить</button>					
+				</form>
+				<a href="#" class="footer-consent-min">Согласие на обработку персональных данных.</a>
+				<div class="footer-social">
+					<a class="footer-social__vk footer-social__link" href="#" target="_blank"></a>
+					<a class="footer-social__inst footer-social__link" href="#" target="_blank"></a>
+					<a class="footer-social__fb footer-social__link" href="#" target="_blank"></a>
+				</div>
+			</div>
+			<a href="#" class="footer-consent-max">Согласие на обработку персональных данных.</a>
+			<div class="box-copyright">
+				<p class="box-copyright__copy">&copy 2020, Все права защищены</p>
+				<p class="box-copyright__text">Сделано в рамках курса учебной платформы <a class="box-copyright__link" href="#">Frontend Blok</a></p>
+			</div>	
+		</div>
+	</footer>
+</body>
+</html>
